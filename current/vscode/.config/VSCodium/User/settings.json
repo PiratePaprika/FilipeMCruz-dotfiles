@@ -22,7 +22,7 @@
     "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont,'Iosevka', 'fira code'",
     "markdown-preview-enhanced.previewTheme": "monokai.css",
     "plantuml.exportConcurrency": 6,
-    "plantuml.exportFormat": "latex",
+    "plantuml.exportFormat": "png",
     "rainbow_csv.comment_prefix": "#",
     "rainbow_csv.csv_lint_detect_trailing_spaces": true,
     "editor.cursorBlinking": "expand",
@@ -186,4 +186,5 @@
     "editor.unicodeHighlight.nonBasicASCII": false,
     "javascript.updateImportsOnFileMove.enabled": "never",
     "workbench.colorTheme": "Gruvbox Material Dark",
+    "window.zoomLevel": 1,
 }
