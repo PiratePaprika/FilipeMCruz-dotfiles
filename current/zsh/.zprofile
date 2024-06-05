@@ -128,3 +128,6 @@ export LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;
 #cast_control connect --wait 30 &
 
 krunner --daemon&
+
+# screensharing is failing for some reason with my current setup, killing all xdg related processes fixes the issue
+(sleep 10 && pkill xdg) &

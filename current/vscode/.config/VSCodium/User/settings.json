@@ -22,7 +22,7 @@
     "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont,'Iosevka', 'fira code'",
     "markdown-preview-enhanced.previewTheme": "monokai.css",
     "plantuml.exportConcurrency": 6,
-    "plantuml.exportFormat": "png",
+    "plantuml.exportFormat": "svg",
     "rainbow_csv.comment_prefix": "#",
     "rainbow_csv.csv_lint_detect_trailing_spaces": true,
     "editor.cursorBlinking": "expand",
@@ -61,6 +61,7 @@
     "editor.codeActionsOnSave": null,
     "editor.bracketPairColorization.enabled": true,
     "cSpell.userWords": [
+        "Backoffice",
         "configurability",
         "Flink",
         "Kubernetes",
@@ -79,8 +80,8 @@
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "latex-workshop.bibtex-fields.sort.enabled": true,
     "plantuml.jar": "/usr/share/java/plantuml/plantuml.jar",
-    "plantuml.diagramsRoot": "assets/diagrams",
-    "plantuml.exportOutDir": "assets/diagrams",
+    "plantuml.diagramsRoot": "challenge/docs/assets",
+    "plantuml.exportOutDir": "challenge/docs/assets",
     "plantuml.exportSubFolder": false,
     "latex-workshop.latex.tools": [
         {
@@ -187,4 +188,6 @@
     "javascript.updateImportsOnFileMove.enabled": "never",
     "workbench.colorTheme": "Gruvbox Material Dark",
     "window.zoomLevel": 1,
+    "plantuml.exportIncludeFolderHeirarchy": false,
+    "plantuml.lintDiagramNoName": false,
 }
